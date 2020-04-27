@@ -86,7 +86,7 @@ a {
   padding: 120px 0 100px 0;
   background-image: url(BG.jpg);
   background-size: cover;
-  color: white;
+  color: #ADD8E6;
   text-align: center;
 }
 
@@ -96,7 +96,6 @@ a {
   letter-spacing: 1px;
   margin: 10px 0;
   font-family: 'bebasneue';
-  color: #2E9AFE;
 }
 
 .cover p{
@@ -104,7 +103,6 @@ a {
   margin-bottom: 3px;
   margin-top: 20px;
   line-height: 10px;
-  color: #2E9AFE;
 }
 
 .btn-wrapper {
