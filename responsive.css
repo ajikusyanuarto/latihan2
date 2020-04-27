@@ -1,1 +1,68 @@
+/*Tablet Size*/
 
+@media all and (max-width: 1000px) {
+	
+  .icon p {
+	font-size: 14px;
+	letter-spacing: 1px; 
+  }
+
+  .text-content {
+  	font-size: 12px;
+  }
+
+}
+
+/*Smartphone Size*/
+@media all and (max-width: 670px) {
+	
+	.header-right{
+		display: none;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+
+	.cover h1 {
+		font-size: 45px;
+		text-align: left;
+	}
+
+
+	.facebook{
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+
+	.heading1 h2 {
+		font-size: 30px;
+	}
+
+	.icon img {
+		width: 80px;
+	}
+
+	.icon p {
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+
+	.member {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.btn {
+		padding: 8px 16px; 
+
+	}
+
+	.profil {
+		padding: 6px 6px;
+	}
+
+	footer{
+		text-align: center;
+	}
+}
