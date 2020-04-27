@@ -1,1 +1,314 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+
+/*import font*/
+@font-face {
+  font-family: bebasneue;
+  src: url(BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: elevate;
+  src: url(Elevate_PersonalUse.ttf);
+}
+
+
+/*Bagian Header*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(98, 212, 229, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 5px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.header-left {
+  float: left;
+  margin-left: 5px;
+}
+
+.header-right {
+  float: right;
+  margin-right: 5px;
+}
+
+.header-right a {
+  padding: 0 25px;
+  line-height: 65px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(59, 143, 156, 0.9);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+/*cover banner*/
+.cover {
+  padding: 120px 0 100px 0;
+  background-image: url(BG.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.cover h1{
+  opacity: 0.9;
+  font-size: 75px;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  font-family: 'bebasneue';
+}
+
+.cover p{
+  opacity: 0.9;
+  margin-bottom: 3px;
+  margin-top: 20px;
+  line-height: 10px; 	
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+  width: 250px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.google {
+  background-color: #DF0101;
+  width: 250px;
+}
+
+.btn{
+  padding: 12px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 30px;
+}
+
+.clear {
+  clear: left;
+}
+
+
+/*KONTEN 1 (MEMBER TEAM)*/
+.member-wrapper{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading1{
+	color: #151515;
+	padding bottom: 10px;
+	font-size: 30px;
+}
+
+.heading1 h2{
+  font-family: 'bebasneue';
+  font-weight: normal;
+  padding-bottom: 20px;
+  margin: 10px 0;
+}
+
+.member{
+	width:20%;
+	float: left;
+}
+
+.icon{
+	position: relative;
+}
+
+.icon img{
+	width: 100px;
+}
+
+.icon p{
+  position: relative;
+  top: 30%;
+  letter-spacing: 2px;
+  width: 100%;
+  font-family: 'bebasneue';
+  color: black;
+  font-weight: bold;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  font-size: 15px;
+  color: #778899;
+  text-align: center;
+}
+
+.ig {
+	margin-right: 3px;
+}
+
+.profil{
+  padding: 10px 15px;
+  background-color: #071019;
+  cursor: pointer;
+  box-shadow: 0 7px #848484;
+}
+
+.profil:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/*KONTEN 2 (MEMBER TEAM)*/
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #151515;
+}
+
+.heading2 h2{
+  font-family: 'bebasneue';
+  font-weight: normal;
+  padding: 20px 0;
+  margin: 10px 0;
+  color:white;
+  font-size: 40px;
+}
+
+.heading2 h3{
+	color:#2E9AFE;
+	font-family: 'elevate';
+}
+
+.message {
+  padding: 20px 50px;
+  background-color: #2E9AFE;
+  cursor: pointer;
+  box-shadow: 0 7px #2E2E2E;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+/*CONTACT FORM*/
+.contact-form {
+  padding-top: 10px;
+  margin-left: 5%;
+}
+
+.contact-form p{
+	padding-top: 5px;
+	margin:0 auto; 
+}
+.section-title{
+	margin:0 auto;
+}
+
+input, textarea{
+  width:300px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:10px;
+  font-size:12px;
+  border:1px solid #dee7ec;
+}
+
+.contact-submit{
+  background:#dee7ec;
+  cursor: pointer;
+  box-shadow: 0 7px #2E2E2E;
+}
+.contact-submit:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/*FOOTER*/
+footer img {
+  width: 110px;
+  margin-left: 5px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+footer {
+  padding-top: 8px;
+  padding-bottom: 2px;
+  border-top: 1px solid #eee;
+}
 
